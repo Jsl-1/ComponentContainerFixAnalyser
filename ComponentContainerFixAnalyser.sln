@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComponentContainerFixAnalyser", "ComponentContainerFixAnalyser\ComponentContainerFixAnalyser\ComponentContainerFixAnalyser.csproj", "{4ECD2E5E-5345-44F3-AC43-6B802C92A250}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComponentContainerFixAnalyser.Test", "ComponentContainerFixAnalyser\ComponentContainerFixAnalyser.Test\ComponentContainerFixAnalyser.Test.csproj", "{C55E3402-995F-4D58-B964-E426F7165AC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComponentContainerFixAnalyser.Vsix", "ComponentContainerFixAnalyser\ComponentContainerFixAnalyser.Vsix\ComponentContainerFixAnalyser.Vsix.csproj", "{BECC8954-5DF8-494A-BF11-98E7183B2EC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4ECD2E5E-5345-44F3-AC43-6B802C92A250}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ECD2E5E-5345-44F3-AC43-6B802C92A250}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ECD2E5E-5345-44F3-AC43-6B802C92A250}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ECD2E5E-5345-44F3-AC43-6B802C92A250}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C55E3402-995F-4D58-B964-E426F7165AC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C55E3402-995F-4D58-B964-E426F7165AC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C55E3402-995F-4D58-B964-E426F7165AC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C55E3402-995F-4D58-B964-E426F7165AC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BECC8954-5DF8-494A-BF11-98E7183B2EC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BECC8954-5DF8-494A-BF11-98E7183B2EC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BECC8954-5DF8-494A-BF11-98E7183B2EC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BECC8954-5DF8-494A-BF11-98E7183B2EC0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

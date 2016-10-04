@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="ComponentContainerFixAnalyser..845977b9-d428-4218-a21b-9928eaa4c3ef" Version="1.0" Language="en-US" Publisher="Jsl1"/>
+    <DisplayName>ComponentContainerFixAnalyser</DisplayName>
+    <Description xml:space="preserve">Windows Form Application Analyzer
+
+Analyse forms and user controls for missing "components" definition in InitalizeComponent method in Windows Form Application</Description>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Version="[14.0,]" Id="Microsoft.VisualStudio.Pro" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="ComponentContainerFixAnalyser" Path="|ComponentContainerFixAnalyser|"/>
+    <Asset Type="Microsoft.VisualStudio.Analyzer" d:Source="Project" d:ProjectName="ComponentContainerFixAnalyser" Path="|ComponentContainerFixAnalyser|"/>
+  </Assets>
+</PackageManifest>
